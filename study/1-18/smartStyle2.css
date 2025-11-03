@@ -38,19 +38,20 @@
     
     .left{
         width:150px;
-        height: 150px;
+        height: 100px; 
         float:none;
     }
 
 
     .right{
         width:150px;
-        height:auto;
+        height:auto; 
         float: none;
     }
 
     .right0{
         width: 150px;
+        height: 100px;
         float: none;
     }
 
