@@ -33,9 +33,12 @@ body{
     height: 60px;
     width: 160px;
     float: right;
-    margin: 20px 20px 20px 180px;
+    margin-right: 20px;
+    margin-top: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    /* space-around(それぞれの要素に均等な余白をつける)から
+    space-evenly（すべての空白が均等に配置される）へ変更 */
     align-items: center;
 }
 
@@ -47,8 +50,7 @@ body{
 
 .center{
     height: 250px;
-    overflow: hidden;
-
+      
 }
 
 .left{
@@ -65,33 +67,24 @@ body{
     float: right;
 
 }
-
-.box2{
+/* 追加（ピンクの部分をまとめて指定） */
+.bg-pink{
     width: 140px;
     height: 40px;
     background-color: #ffc2c5;
     border: 5px solid #fff;
-    margin: 40px 60px 0px 40px;
+    margin-left: 40px;
 
+}
+
+.box2{
+    margin-top: 40px;
 }
 
 .box3{
-    width: 140px;
-    height: 40px;
-    background-color: #ffc2c5;
-    border: 5px solid #fff;
-    margin: 10px 60px 0px 40px;
-
+    margin-top: 10px;
 }
-
-.box4{
-    width: 140px;
-    height: 40px;
-    background-color: #ffc2c5;
-    border: 5px solid #fff;
-    margin: 10px 60px 0px 40px;
-
-}
+/* box4を削除 */
 
 .footer{
     height: 100px;
