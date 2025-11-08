@@ -26,15 +26,17 @@ body{
 .header{
     height: 100px;
     background-color: #ffce7a;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+    
     
 }
 
 .box1{
     height: 60px;
     width: 160px;
-    float: right;
-    margin-right: 20px;
-    margin-top: 20px;
     display: flex;
     justify-content: space-evenly;
     /* space-around(それぞれの要素に均等な余白をつける)から
@@ -65,26 +67,28 @@ body{
     width: 250px;
     height: 100%;
     float: right;
-
+    display: flex;
+    
 }
-/* 追加（ピンクの部分をまとめて指定） */
+
+.box2{
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
 .bg-pink{
     width: 140px;
     height: 40px;
     background-color: #ffc2c5;
     border: 5px solid #fff;
-    margin-left: 40px;
-
+  
 }
-
-.box2{
-    margin-top: 40px;
-}
-
-.box3{
-    margin-top: 10px;
-}
-/* box4を削除 */
 
 .footer{
     height: 100px;
