@@ -22,7 +22,7 @@ public class Task2_6 {
         String hogeString = "テスト";
 
         // ③下記の処理について、何をしているのかコメントを記入してください
-        // [ここへ記述] 小数を表示させる処理
+        // [ここへ記述] double型を宣言して、「hogeDouble」という変数名をつけて、0.8で初期化する。
         double hogeDouble = 0.8;
 
 
@@ -39,7 +39,7 @@ public class Task2_6 {
         System.out.println(hogeInt);
 
         // ⑦下記の処理について、何をしているのかコメントを記入してください
-        // [ここへ記述] データ型hogeStringをターミナルに表示させている。
+        // [ここへ記述]　hogeStringの内容をターミナルに出力する。
         System.out.println(hogeString);
 
 
