@@ -25,11 +25,11 @@ public class Task2_7 {
         *   3番目の要素に 「ぶどう」 を代入
         */
 
-       String[] strArr = new String[3];
+       String[] strArray = new String[3];
 
-       strArr[0] = "りんご";
-       strArr[1] = "もも";
-       strArr[2] = "ぶどう";
+       strArray[0] = "りんご";
+       strArray[1] = "もも";
+       strArray[2] = "ぶどう";
 
        // ④ ③で作成した配列の3番目の要素を出力しなさい。
 
