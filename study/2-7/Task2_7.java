@@ -33,7 +33,7 @@ public class Task2_7 {
 
        // ④ ③で作成した配列の3番目の要素を出力しなさい。
 
-        System.out.println(strArr[2]);
+        System.out.println(strArray[2]);
 
         /* ⑤下記の処理について、何をしているのかコメントを記入して下さい。
         *  [ここへ記述] int型の配列変数intArrayを宣言し、10, 20, 30, 40, 50　で初期化している。
