@@ -22,7 +22,7 @@ public class Task2_6 {
         String hogeString = "テスト";
 
         // ③下記の処理について、何をしているのかコメントを記入してください
-        // [ここへ記述] 「double型」の「hogeDouble」という名前の変数を宣言して、そこに「0.8」を格納する。
+        // [ここへ記述] 「double型」の「hogeDouble」という名前の変数を宣言して、そこに「0.8」を格納している。
         double hogeDouble = 0.8;
 
 
